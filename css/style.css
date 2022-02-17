@@ -9,6 +9,10 @@
       font-size: 0.938rem;
     }
 
+    head, body {
+      overflow-x: 0px;
+    }
+
     li {
       padding-right: 1.875rem;
     }
@@ -22,6 +26,12 @@
     @media screen and (max-width: 768px) {
       .col-md-3>img {
         padding-bottom: 0.625rem;
+      }
+    }
+
+    @media screen and (max-width: 992px) {
+      .fb {
+        padding-left: 0px !important;
       }
     }
 
@@ -49,10 +59,11 @@
     colour {
       background-color: white;
     }
-    img:hover{
-      transform: scale(1.05,1.05);
-      -webkit-transform: scale(1.05,1.05);
-      -moz-transform: scale(1.05,1.05);
-      -ms-transform: scale(1.05,1.05);
-      -o-transform: scale(1.05,1.05);
-}
+
+    img:hover {
+      transform: scale(1.05, 1.05);
+      -webkit-transform: scale(1.05, 1.05);
+      -moz-transform: scale(1.05, 1.05);
+      -ms-transform: scale(1.05, 1.05);
+      -o-transform: scale(1.05, 1.05);
+    }
